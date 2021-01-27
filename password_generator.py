@@ -46,6 +46,6 @@ def password_generator(password_lenght):
     except Exception:
         pass
 
-
-password_lenght = ask_user()
-password_generator(password_lenght)
+if __name__ == "__main__":
+    password_lenght = ask_user()
+    password_generator(password_lenght)
