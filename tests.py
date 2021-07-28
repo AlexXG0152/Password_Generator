@@ -6,7 +6,7 @@ from password_generator import ask_user, password_generator
 class PasswordsTestCase(unittest.TestCase):
 
     def test_get_input_processed_input_correctly(self):
-        user_input = "7"
+        user_input = ["7"]
         expected_input = 7
         with patch('builtins.input', side_effect=user_input):
             user_in = ask_user()
