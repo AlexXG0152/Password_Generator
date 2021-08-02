@@ -1,7 +1,7 @@
 from unittest.mock import patch
 import unittest
 
-from password_generator import ask_user, password_generator
+from password_generator_2 import ask_user, password_generator
 
 class PasswordsTestCase(unittest.TestCase):
 
